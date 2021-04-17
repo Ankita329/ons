@@ -1,0 +1,10 @@
+1>Add only user
+2>update order and orderitemS
+3>user add item to cart
+4>update cart and cartItem
+5>place order from cart
+6>add category
+7>add product by retailer
+----->fetch category by id then link it to product's category_id
+
+   

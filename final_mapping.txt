@@ -1,0 +1,8 @@
+tbl_user to tbl_usercart(1-1)
+tbl_usercart to tbl_cart_items(1-many)
+tbl_user to tbl_order(1-many)
+tbl_order to tbl_order_item(1-many)
+tbl_retailer to tbl_product(1-many)
+tbl_category to tbl_product(1-many)
+tbl_product to tbl_order_item(1-many)
+tbl_product to tbl_cart_item(1-many)

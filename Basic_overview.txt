@@ -1,0 +1,35 @@
+Project Topic---- ONLINE SHOPPING----
+
+Modules:
+1> Sign up
+	->name,email,addr,mobile no,password(encryption before goint to db)
+	
+2> Login
+	->validation on email and password
+	->forget password option which will use otp to allow user to change password.
+	
+3> User
+	->products will be available without login also
+	->sorting(alphabatically, price<low to high>)
+	->filtering(based on brand or price)
+	->user profile will display user details and wishlist
+	
+4> Retailer
+	->access to product details
+	->add, modify, delete stocks
+	->decide product pricing
+	->total revenue generated
+	
+5> Admin
+	->view all products
+	->view all retailers, add or delete retailer
+	->verity and approve updates done by retailer
+	
+	
+
+Functionalities to be added:
+->Atleast 4 categories of products to be included
+->Page enhancement to be done like sorting/filter of products
+->Comparision of products as per user need (atleast 4 product could be compared)
+->Comparision and checkout needs user to sign in
+->cart page to be dynamic.user can update quantity on cart page

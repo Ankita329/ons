@@ -1,0 +1,62 @@
+Database for ONLINE SHOPPING
+
+1] create new schema in oracle db.
+2] Table needed would be : 
+	> tbl_admin
+	> tbl_retailer
+	> tbl_user
+	> tbl_products
+	
+	
+	
+---- tbl_admin structure ------
+	
+	admin_id(primary key)
+	name
+	email
+	mobile_no
+	password(strong)
+	
+	
+---- tbl_retailer --------
+
+	retailer_id(primary key)
+	name
+	email
+	mobile_no(required)
+	password
+	
+	
+	
+---- tbl_user ----------
+
+	name
+	email(primary key)
+	mobile_no(required)
+	address
+	password
+	user_id
+	
+	
+----- tbl_products ---------
+
+	product_id
+	product_name
+	retailer_id
+	quantity
+	price
+	category
+	
+	
+---- tbl_orders -------
+
+	order_id
+	status
+	retailer_id
+	user_id
+	product_id
+	date
+	price
+	
+	
+	
